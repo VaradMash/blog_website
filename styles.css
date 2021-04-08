@@ -10,7 +10,7 @@
 #main_image{
     background: url("Assets/finance_image.png");
     margin-top: -20%;
-    margin-left: 45%;
+    margin-left: 40%;
 }
 
 #paragraph_header{
@@ -19,16 +19,46 @@
     font-family: 'Montserrat', sans-serif; 
 }
 
-p{
-    width: 40%;
+#home_paragraph{
+    width: 35%;
     margin-left: 2%;
     margin-top: 2%;
 }
 
 .horizontal_seperator{
     margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: cornflowerblue;
+}
+
+.rotation_band{
+    background-color: black;
+    color: blanchedalmond;
 }
 
 #company_logo{
-    
+    float: left;
+    margin-top: -20%;
+    margin-left: 5%;
+}
+
+#about_us{
+    margin-top: 10%;
+}
+
+#about_us_header{
+    margin-left: 40%;
+    margin-top: 10%;  
+    font-family: 'Montserrat', sans-serif; 
+}
+
+#about_us_content{
+    margin-left: 40%;
+    margin-top: 2%;
+    width: 50%;
+}
+
+#about_us_seperator{
+    margin-top: 10%;
 }
