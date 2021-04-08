@@ -1,0 +1,11 @@
+#write_blog_button{
+    background-color: darkslateblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: medium;
+    border-radius: 20px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+}
