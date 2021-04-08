@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="new_blog_styles.css">
+        <!--Google font resource dependency-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <title>New Blog</title>
+    </head>
+    <body>
+        <!--Form structure for blog details input.-->
+        <div class="form">
+            <!--Blog Title-->
+            <h3>Blog Title</h3>
+            <input type="text" name="blog_title" required autocomplete="off" class="input_fields text_field" alt="Blog Title">
+            <br>
+            <br>
+            <!--Image for blog-->
+            <h3>Image/Infographic</h3>
+            <input type="file" name="blog_image" required autocomplete="off" class="input_fields">
+            <br>
+            <br>
+            <!--Summary for blog-->
+            <h3>Blog Summary</h3>
+            <textarea name="blog_summary" required autocomplete="off" class="input_fields text_field" maxlength="350" id="summary_input">Summary(Maximum 350 characters)</textarea>
+            <br>
+            <br>
+            <!--Blog content-->
+            <h3>Content</h3>
+            <textarea id="content_input" class="input_fields text_field">Content</textarea>
+            <br>
+            <br>
+            <!--Submit Button-->
+            <button id="submit_button">Submit</button>
+            <br>
+        </div>
+        <footer class="footer"><b>Copyright&copy Bakerstreet Fintech Private Limited</b></footer>
+    </body>
+</html>
