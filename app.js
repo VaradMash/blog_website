@@ -1,14 +1,12 @@
-//Define database end point.
 const db = firebase.firestore();
-//Reset database settings.
 db.settings({ timestampsInSnaphsots: true });
-//Get elements from html document.
 const form = document.getElementById('new_blog_form');
 const submit_button = document.getElementById('submit_button');
 //Define month array
 var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 //define date object
 var date = new Date();
+
 
 submit_button.onclick = function (event)
 {
@@ -28,4 +26,3 @@ submit_button.onclick = function (event)
     })
     alert("Blog Posted Successfuly !");
 }
-
