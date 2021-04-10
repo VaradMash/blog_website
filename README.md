@@ -24,8 +24,11 @@ This repository contains the code for a blog website. The implementation details
 
 ## Current Features : 
 1. The Website contains 3 Pages : 
+
    a) Home Page : Contains Home, About Us, Contact Us sections.
+   
    b) Blogs page: Displays all blogs posted on database.
+   
    c) New Blog Page: Contains form for adding new blog.
    
 ## Snapshots : 
@@ -72,7 +75,7 @@ c) New Blogs Page :
 
 1. The user can currently post a blog on the website without Authentication.
 2. The website is recommended to be used on desktop browser.
-3. The website is currently not hosted on any platform.
+3. The website is hosted on the url : https://blog-website-a39a0.web.app/.
 
 ## Implementation Details :
 (A) Front End Development : 
@@ -99,4 +102,6 @@ c) New Blogs Page :
 
 ## Distribution Details :
 
--> The website is currently not hosted on any platform.
+-> The website is hosted using Firebase Command Line Interface.
+
+-> Website URL : https://blog-website-a39a0.web.app/
