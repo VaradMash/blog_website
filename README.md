@@ -78,7 +78,7 @@ c) New Blogs Page :
 (A) Front End Development : 
   1. HTML         : Document Structuring
   2. CSS          : Element Styling
-  3. Javascipt    : Page behaviour
+  3. Javascript    : Page behaviour
   4. Bootstrap    : Navbars and Card Views.
 (B) Back End Development :
   1. Firebase Firestore for storing blogs
