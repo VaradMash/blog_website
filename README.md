@@ -30,6 +30,7 @@ This repository contains the code for a blog website. The implementation details
    
 ## Snapshots : 
 a) Home Page : 
+
   (i) Home Section : 
   
   ![image](https://user-images.githubusercontent.com/56042048/114264229-55ced900-9a07-11eb-84b0-7c0ce5ec6559.png)
