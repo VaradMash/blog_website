@@ -82,7 +82,9 @@ c) New Blogs Page :
   4. Bootstrap    : Navbars and Card Views.
 (B) Back End Development :
   1. Firebase Firestore for storing blogs
+ 
      Database Image : 
+     
      ![image](https://user-images.githubusercontent.com/56042048/114264650-ba8b3300-9a09-11eb-860a-2ae7e07e5603.png)
   
 
