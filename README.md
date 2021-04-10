@@ -98,5 +98,3 @@ c) New Blogs Page :
 ## Distribution Details :
 
 -> The website is currently not hosted on any platform.
-
--> Cloning the repository will not guarantee execution of some features as the node_modules directory has been excluded from the repository.
