@@ -6,34 +6,69 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         <title>New Blog</title>
+        
     </head>
     <body>
+        <!--Adding Firebase dependency-->
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-firestore.js"></script>
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+                 https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script>
+            // Your web app's Firebase configuration
+            var firebaseConfig = {
+                apiKey: "AIzaSyDa0cydOWHYfUb78Fdh6c1WzpXgbjrr4J8",
+                authDomain: "blog-website-a39a0.firebaseapp.com",
+                projectId: "blog-website-a39a0",
+                storageBucket: "blog-website-a39a0.appspot.com",
+                messagingSenderId: "191766335296",
+                appId: "1:191766335296:web:aa42050da4c86fb405b4a5"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+        </script>
         <!--Form structure for blog details input.-->
-        <div class="form">
+        <form id="new_blog_form">
             <!--Blog Title-->
             <h3>Blog Title</h3>
-            <input type="text" name="blog_title" required autocomplete="off" class="input_fields text_field" alt="Blog Title">
+            <input type="text" name="blog_title" required placeholder="Title" autocomplete="off" class="input_fields text_field"
+                alt="Blog Title">
             <br>
             <br>
-            <!--Image for blog-->
-            <h3>Image/Infographic</h3>
-            <input type="file" name="blog_image" required autocomplete="off" class="input_fields">
+            <!--Author-->
+            <h3>Author</h3>
+            <input type="text" name="blog_author" required placeholder="Author" autocomplete="off" class="input_fields text_field">
+            <br>
+            <br>
+            <!--Category-->
+            <h3>Category</h3>
+            <input type="text" name="blog_category" required placeholder="Category" autocomplete="off" class="input_fields text_field">
+            <br>
+            <br>
+            <!--Tags-->
+            <h3>Tags</h3>
+            <input type="text" name="blog_tags" placeholder="Tags(comma seperated)" required autocomplete="off" class="input_fields text_field">
             <br>
             <br>
             <!--Summary for blog-->
             <h3>Blog Summary</h3>
-            <textarea name="blog_summary" required autocomplete="off" class="input_fields text_field" maxlength="350" id="summary_input">Summary(Maximum 350 characters)</textarea>
+            <textarea name="blog_summary" required autocomplete="off" placeholder="Summary(Maximum 350 characters)"
+                class="input_fields text_field" maxlength="350" id="summary_input"></textarea>
             <br>
             <br>
             <!--Blog content-->
             <h3>Content</h3>
-            <textarea id="content_input" class="input_fields text_field">Content</textarea>
+            <textarea id="content_input" name="blog_content" placeholder="Content" class="input_fields text_field"></textarea>
             <br>
             <br>
             <!--Submit Button-->
             <button id="submit_button">Submit</button>
             <br>
-        </div>
+        </form>
+        <!--Footer definition-->
         <footer class="footer"><b>Copyright&copy Bakerstreet Fintech Private Limited</b></footer>
+        <!--Link script to document-->
+        <script src="app.js"></script>
     </body>
 </html>
